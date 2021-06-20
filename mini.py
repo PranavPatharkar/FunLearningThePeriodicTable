@@ -7,8 +7,6 @@ import webbrowser
 from pygame import *
 from pygame import mixer
 
-
-
 play =0
 song =0
 def bgmusic():
