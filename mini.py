@@ -11,7 +11,7 @@ play =0
 song =0
 def bgmusic():
     mixer.init()
-    global song  
+    global song
     song = random.randint(0, 5)
     if song == 0:
         mixer.music.load("assets/mp3s/music0.mp3")
@@ -90,7 +90,7 @@ def generate():
         else:
             indices.append(x)
 
-def display_result(score):    
+def display_result(score):
     lblQuestion.destroy()
     r1.destroy()
     r2.destroy()
